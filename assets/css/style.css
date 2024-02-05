@@ -42,14 +42,23 @@ body{
 .col-8{
     width: calc((100% / 12) * 8);
 }
-
+.col-12{
+    width: 100%;
+}
 /* #endregion utilities */
 
 /* #region sidebar */
 .sidebar{
     background-color: bisque;
-    height: 100%;
+    height: 550px;
 }
+/* #region side_nav */
+.side_nav{
+    background-color: aliceblue;
+    height: 15%;
+}
+/* #endregion side_nav */
+
 /* #endregion sidebar */
 
 /* #region main_app */
