@@ -29,8 +29,35 @@ body{
     height: 90%;
     background-color: aqua;
 }
+.d-flex{
+    display: flex;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-4{
+    width: calc((100% / 12) * 4);
+}
+.col-8{
+    width: calc((100% / 12) * 8);
+}
 
 /* #endregion utilities */
+
+/* #region sidebar */
+.sidebar{
+    background-color: bisque;
+    height: 100%;
+}
+/* #endregion sidebar */
+
+/* #region main_app */
+.main_app{
+    background-color: brown;
+    height: 100%;
+}
+/* #endregion main_app */
 
 @media screen and (max-width:991px) {
     
