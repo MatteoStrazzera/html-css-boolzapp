@@ -50,14 +50,28 @@ body{
 /* #region sidebar */
 .sidebar{
     background-color: bisque;
-    height: 550px;
+    height: 100%;
 }
 /* #region side_nav */
 .side_nav{
     background-color: aliceblue;
-    height: 15%;
+    height: 50px;
 }
 /* #endregion side_nav */
+
+/* #region notification */
+.notification{
+background-color: beige;
+height: 65px;
+}
+/* #endregion notification */
+
+/* #region searchbar */
+.searchbar{
+    background-color: antiquewhite;
+    height: 40px;
+}
+/* #endregion searchbar */
 
 /* #endregion sidebar */
 
