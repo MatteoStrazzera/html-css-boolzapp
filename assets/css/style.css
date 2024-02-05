@@ -34,7 +34,7 @@ body{
 }
 .row{
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
 }
 .col-4{
     width: calc((100% / 12) * 4);
@@ -72,6 +72,18 @@ height: 65px;
     height: 40px;
 }
 /* #endregion searchbar */
+
+/* #region contacts */
+.contact_list{
+    height: 100%;
+    overflow-y: auto;
+}
+.contact{
+    background-color: blue;
+    border: 2px solid black;
+    height: 65px;
+}
+/* #endregion contacts */
 
 /* #endregion sidebar */
 
