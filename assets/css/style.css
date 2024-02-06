@@ -66,7 +66,7 @@ body{
     padding: 0 1rem;
 
 }
-.right_nav{
+.left_nav{
     width: 50px;
     height: 50px;
 
@@ -76,7 +76,7 @@ body{
         height: 100%;
     }
 }
-.left_nav{
+.right_nav{
     color: var(--zapp-icons-light);
     gap: 1rem;
     font-size: 1.5rem;
@@ -137,13 +137,43 @@ padding-left: 1rem;
 
 /* #region contacts */
 .contact_list{
-    height: calc(100% - 155px);
-    overflow-y: auto;
+    height: calc(100% - 193px);
+    overflow-y: scroll;
 }
 .contact{
-    background-color: blue;
-    border: 2px solid black;
-    height: 65px;
+    background-color: var(--zapp-light);
+    padding: 0 1rem;
+    height: 70px;
+    align-items: center;
+    border-bottom: 0.5px solid var(--zapp-icons-light);
+}
+.user_img{
+    width: 50px;
+    height: 50px;
+
+    & img{
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+    }
+}
+.text{
+    width: 100%;
+
+    & .user_name{
+        justify-content: space-between;
+    }
+    & p{
+        color: var(--zapp-icons-light);
+    }
+}
+.user_name{
+    span:first-of-type{
+        font-size: 1.2rem;
+    }
+    span:last-of-type{
+        color: var(--zapp-icons-light);
+    }
 }
 /* #endregion contacts */
 
