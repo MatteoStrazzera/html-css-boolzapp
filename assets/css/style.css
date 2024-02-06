@@ -97,6 +97,29 @@ height: 65px;
     background-color: brown;
     height: 100%;
 }
+
+/* #region main_nav */
+.main_nav{
+    background-color: aqua;
+    height: 50px;
+}
+/* #endregion main_nav */
+
+/* #region chat */
+.chat{
+    background-color: lightcoral;
+    height: calc(100% - 100px);
+}
+/* #endregion chat */
+
+/* #region main_bottom */
+.main_bottom{
+    background-color: lightgreen;
+    height: 50px;
+}
+/* #endregion main_bottom */
+
+
 /* #endregion main_app */
 
 @media screen and (max-width:991px) {
