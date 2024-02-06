@@ -18,6 +18,7 @@
 body{
     height: 100vh;
     background-color: var(--zapp-bg-big);
+    overflow: hidden;
 }
 /* #endregion common */
 
@@ -26,8 +27,12 @@ body{
     width: 90%;
     margin: auto;
     margin-top: 1rem;
-    height: 90%;
+    height: 95vh;
     background-color: aqua;
+}
+.app_page{
+    width: 100%;
+    height: 100%;
 }
 .d-flex{
     display: flex;
@@ -75,7 +80,7 @@ height: 65px;
 
 /* #region contacts */
 .contact_list{
-    height: 100%;
+    height: calc(100% - 155px);
     overflow-y: auto;
 }
 .contact{
