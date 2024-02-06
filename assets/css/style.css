@@ -115,8 +115,23 @@ padding-left: 1rem;
 
 /* #region searchbar */
 .searchbar{
-    background-color: antiquewhite;
-    height: 40px;
+    background-color: var(--zapp-primary-top);
+    padding: 0.5rem;
+}
+.search{
+    background-color: var(--zapp-light);
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
+
+    & i{
+        color: var(--zapp-icons-light);
+    }
+
+    & input{
+        border: none;
+        width: 100%;
+    }
 }
 /* #endregion searchbar */
 
