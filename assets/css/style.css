@@ -86,8 +86,30 @@ body{
 
 /* #region notification */
 .notification{
-background-color: beige;
-height: 65px;
+background-color: var(--zapp-notifications);
+height: 75px;
+align-items: center;
+padding-left: 1rem;
+
+    & .icon{
+        background-color: var(--zapp-light);
+        border-radius: 50%;
+        aspect-ratio: 1;
+
+        & i{
+            color: var(--zapp-notifications);
+            font-size: 1.2rem;
+            padding: 0.8rem;
+        }
+    }
+}
+.text{
+    flex-direction: column;
+    padding-left: 1rem;
+
+    & a{
+        color: var(--zapp-icons-light);
+    }
 }
 /* #endregion notification */
 
