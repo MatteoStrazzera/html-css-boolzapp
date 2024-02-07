@@ -67,7 +67,6 @@ body{
 
 }
 .left_nav{
-    width: 50px;
     height: 50px;
 
     & img{
@@ -187,8 +186,27 @@ padding-left: 1rem;
 
 /* #region main_nav */
 .main_nav{
-    background-color: aqua;
-    height: 50px;
+    background-color: var(--zapp-primary-top);
+    height: 70px;
+    border-left: 0.5px solid var(--zapp-icons-light);
+    padding: 0 1rem;
+    align-items: center;
+    justify-content: space-between;
+
+    & .left_nav{
+        align-items: center;
+    }
+}
+.main_contact{
+    flex-direction: column;
+    padding-left: 1rem;
+    
+    span:first-of-type{
+        font-size: 1.2rem;
+    }
+    span:last-of-type{
+        color: var(--zapp-icons-light);
+    }
 }
 /* #endregion main_nav */
 
