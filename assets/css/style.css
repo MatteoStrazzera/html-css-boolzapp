@@ -179,7 +179,6 @@ body {
 
     & img {
         border-radius: 50%;
-        width: 100%;
         height: 100%;
     }
 }
@@ -323,6 +322,25 @@ body {
 
 /* #endregion main_app */
 
-@media screen and (max-width:991px) {}
+@media screen and (max-width:991px) {
+    .hide{
+        display: none;
+    }
+    .sidebar{
+        width: 10%;
+    }
+    .main_app{
+        width: 100%;
+    }
+    .notification{
+        display: none;
+    }
+    .searchbar{
+        display: none;
+    }
+    .contact_list{
+        height: calc(100% - 70px);
+    }
+}
 
 @media screen and (max-width:540px) {}
