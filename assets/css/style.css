@@ -125,6 +125,7 @@ padding-left: 1rem;
     align-items: center;
     gap: 1rem;
     padding: 0.5rem;
+    border-radius: 0.5rem;
 
     & i{
         color: var(--zapp-icons-light);
@@ -133,6 +134,7 @@ padding-left: 1rem;
     & input{
         border: none;
         width: 100%;
+        
     }
 }
 /* #endregion searchbar */
@@ -254,6 +256,29 @@ padding-left: 1rem;
 .main_bottom{
     background-color: var(--zapp-primary-bottom);
     height: 70px;
+    padding: 0 1.5rem;
+    align-items: center;
+}
+.emojis{
+    padding-right: 1.5rem;
+    color: var(--zapp-icons-dark);
+    font-size: 1.5rem;
+}
+.input_msg{
+    
+    flex-grow: 1;
+
+    & input{
+        width: 100%;
+        border: none;
+        padding: 1rem;
+        border-radius: 0.5rem;
+    }
+}
+.audio{
+    padding-left: 1.5rem;
+    color: var(--zapp-icons-dark);
+    font-size: 1.5rem;
 }
 /* #endregion main_bottom */
 
